@@ -1,5 +1,8 @@
 # uniter-messaging
 
+[Client and server communication](client-server.md) documents the shared
+request/response and notification flow.
+
 Messaging helpers for Uniter request creation, one-way events, and local direct-response tracking.
 
 `MessageManager` is a QObject singleton that owns local monotonic `sequence_id` generation for `QueryMessage` and emits outgoing `UniterMessage` instances through `signalSendMessage`.
