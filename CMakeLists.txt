@@ -26,7 +26,6 @@ target_include_directories(messaging
 target_link_libraries(messaging
     ${MESSAGING_TARGET_SCOPE}
         contract
-        contract_verbose_include
 )
 
 # DevKit Usage
